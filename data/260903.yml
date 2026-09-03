@@ -1,0 +1,68 @@
+about:
+  description: qpdf: A content-preserving PDF document transformer
+  license: Apache-2.0
+  homepage: https://qpdf.sourceforge.io/
+  head: c37f83a
+  archived: false
+  latestVersion: v12.4.1
+  collectedAt: 2026-09-03T04:52:59Z
+timeline:
+  created: 2012-06-03
+  lastCommit: 2026-08-27
+  lastRelease: 2026-08-27
+popularity:
+  star: 5372
+  watcher: 74
+  fork: 399
+  release: 63
+  contributor: 48
+  pullRequest: 166
+  issue: 819
+language:
+  C++: 2608856
+  Perl: 458290
+  C: 222346
+  Python: 87365
+  Shell: 60725
+  Roff: 51218
+  CMake: 49155
+  Batchfile: 3027
+  PostScript: 2997
+  Emacs Lisp: 1238
+  PowerShell: 1131
+  Dockerfile: 601
+  CSS: 128
+totalLine: 3547077
+recent:
+  last30d:
+    since: 2026-08-04
+    release: 2
+    mergedPR: 12
+    openPR: 5
+    closedIssue: 2
+    openIssue: 2
+    commit: 19
+  last90d:
+    since: 2026-06-05
+    release: 2
+    mergedPR: 19
+    openPR: 9
+    closedIssue: 4
+    openIssue: 7
+    commit: 29
+  last180d:
+    since: 2026-03-07
+    release: 3
+    mergedPR: 49
+    openPR: 15
+    closedIssue: 11
+    openIssue: 10
+    commit: 67
+  last360d:
+    since: 2025-09-08
+    release: 6
+    mergedPR: 143
+    openPR: 19
+    closedIssue: 27
+    openIssue: 15
+    commit: 368
