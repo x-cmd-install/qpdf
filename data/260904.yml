@@ -4,13 +4,13 @@ about:
     qpdf: A content-preserving PDF document transformer
   license: Apache-2.0
   homepage: https://qpdf.sourceforge.io/
-  head: c37f83a
+  head: 7ca4593
   archived: false
   latestVersion: v12.4.1
-  collectedAt: 2026-09-04T19:51:03Z
+  collectedAt: 2026-09-04T20:50:48Z
 timeline:
   created: 2012-06-03
-  lastCommit: 2026-08-27
+  lastCommit: 2026-09-04
   lastRelease: 2026-08-27
 popularity:
   star: 5379
@@ -21,7 +21,7 @@ popularity:
   pullRequest: 849
   issue: 820
 language:
-  C++: 2608856
+  C++: 2609316
   Perl: 458290
   C: 222346
   Python: 87365
@@ -34,64 +34,177 @@ language:
   PowerShell: 1131
   Dockerfile: 601
   CSS: 128
-totalBytes: 3547077
+totalBytes: 3547537
 recent:
   last30d:
     since: 2026-08-05
     release: 2
-    mergedPR: 12
-    openPR: 7
+    mergedPR: 13
+    openPR: 6
     closedIssue: 2
     openIssue: 3
-    commit: 19
+    commit: 21
   last60d:
     since: 2026-07-06
     release: 2
-    mergedPR: 13
-    openPR: 7
+    mergedPR: 14
+    openPR: 6
     closedIssue: 3
     openIssue: 3
-    commit: 20
+    commit: 22
   last90d:
     since: 2026-06-06
     release: 2
-    mergedPR: 19
-    openPR: 11
+    mergedPR: 20
+    openPR: 10
     closedIssue: 4
     openIssue: 8
-    commit: 29
+    commit: 31
   last180d:
     since: 2026-03-08
     release: 3
-    mergedPR: 49
-    openPR: 17
+    mergedPR: 50
+    openPR: 16
     closedIssue: 11
     openIssue: 11
-    commit: 67
+    commit: 69
   last360d:
     since: 2025-09-09
     release: 6
-    mergedPR: 143
-    openPR: 21
+    mergedPR: 144
+    openPR: 20
     closedIssue: 27
     openIssue: 16
-    commit: 368
+    commit: 370
   last720d:
     since: 2024-09-14
     release: 11
-    mergedPR: 309
-    openPR: 30
+    mergedPR: 310
+    openPR: 29
     closedIssue: 62
     openIssue: 43
-    commit: 1192
+    commit: 1195
 total:
   release: 63
-  mergedPR: 681
-  openPR: 37
+  mergedPR: 682
+  openPR: 36
   closedIssue: 678
   openIssue: 142
-  commit: 4810
+  commit: 4813
 ---
+path: /home/runner/.x-repo/github.com/qpdf/qpdf
+collectedAt: 2026-09-04T20:50:52Z
+loc:
+  Cpp:
+    code: 50110
+    comments: 3774
+    blanks: 5719
+    files: 191
+  Json:
+    code: 14716
+    comments: 0
+    blanks: 2
+    files: 151
+  CppHeader:
+    code: 13407
+    comments: 5229
+    blanks: 2445
+    files: 128
+  ReStructuredText:
+    code: 10299
+    comments: 0
+    blanks: 3072
+    files: 20
+  C:
+    code: 2735
+    comments: 325
+    blanks: 272
+    files: 11
+  Perl:
+    code: 1707
+    comments: 246
+    blanks: 187
+    files: 10
+  Python:
+    code: 1689
+    comments: 290
+    blanks: 126
+    files: 4
+  CHeader:
+    code: 1664
+    comments: 2150
+    blanks: 458
+    files: 12
+  CMake:
+    code: 1478
+    comments: 134
+    blanks: 123
+    files: 12
+  Bash:
+    code: 1293
+    comments: 214
+    blanks: 164
+    files: 30
+  Autoconf:
+    code: 937
+    comments: 57
+    blanks: 8
+    files: 21
+  Yaml:
+    code: 495
+    comments: 36
+    blanks: 4
+    files: 2
+  Sh:
+    code: 91
+    comments: 48
+    blanks: 21
+    files: 7
+  Batch:
+    code: 83
+    comments: 0
+    blanks: 0
+    files: 2
+  Xml:
+    code: 44
+    comments: 1
+    blanks: 0
+    files: 1
+  PowerShell:
+    code: 37
+    comments: 0
+    blanks: 5
+    files: 1
+  Dockerfile:
+    code: 13
+    comments: 2
+    blanks: 0
+    files: 1
+  Svg:
+    code: 7
+    comments: 0
+    blanks: 0
+    files: 1
+  Css:
+    code: 3
+    comments: 1
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 2336
+    blanks: 623
+    files: 14
+  Text:
+    code: 0
+    comments: 192
+    blanks: 39
+    files: 4
+total:
+  code: 100891
+  comments: 15043
+  blanks: 13275
+  files: 624
 ---
 date: "2026-08-24"
 repo:
