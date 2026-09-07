@@ -5,15 +5,15 @@ about:
   head: 54d6053
   archived: false
   latestVersion: "v12.4.1"
-  collectedAt: 2026-09-07T03:45:09Z
+  collectedAt: 2026-09-07T20:10:59Z
 timeline:
   created: 2012-06-03
   lastCommit: 2026-09-06
   lastRelease: 2026-08-27
 popularity:
-  star: 5389
+  star: 5392
   watcher: 75
-  fork: 400
+  fork: 399
   release: 63
   contributor: 51
   pullRequest: 853
@@ -39,59 +39,59 @@ recent:
     release: 2
     mergedPR: 21
     openPR: 1
-    closedIssue: 2
-    openIssue: 3
+    closedIssue: 3
+    openIssue: 2
     commit: 36
   last60d:
     since: 2026-07-09
     release: 2
     mergedPR: 22
     openPR: 1
-    closedIssue: 3
-    openIssue: 3
+    closedIssue: 4
+    openIssue: 2
     commit: 42
   last90d:
     since: 2026-06-09
     release: 2
     mergedPR: 27
     openPR: 3
-    closedIssue: 4
-    openIssue: 7
+    closedIssue: 5
+    openIssue: 6
     commit: 44
   last180d:
     since: 2026-03-11
     release: 3
     mergedPR: 57
     openPR: 10
-    closedIssue: 11
-    openIssue: 11
+    closedIssue: 12
+    openIssue: 10
     commit: 88
   last360d:
     since: 2025-09-12
     release: 6
     mergedPR: 151
     openPR: 14
-    closedIssue: 27
-    openIssue: 15
+    closedIssue: 28
+    openIssue: 14
     commit: 355
   last720d:
     since: 2024-09-17
     release: 11
     mergedPR: 315
     openPR: 23
-    closedIssue: 63
-    openIssue: 42
+    closedIssue: 64
+    openIssue: 41
     commit: 1218
 total:
   release: 63
   mergedPR: 690
   openPR: 30
-  closedIssue: 679
-  openIssue: 141
+  closedIssue: 680
+  openIssue: 140
   commit: 4841
 ---
 path: /home/runner/.x-repo/github.com/qpdf/qpdf
-collectedAt: 2026-09-07T03:45:16Z
+collectedAt: 2026-09-07T20:11:09Z
 loc:
   Cpp:
     code: 50145
@@ -368,7 +368,7 @@ checks:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T03:45:18+00:00
+  collectedAt: 2026-09-07T20:11:17+00:00
   platform:
     darwin/arm64:
       name:  null
