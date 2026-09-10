@@ -4,7 +4,7 @@
 
 qpdf: A content-preserving PDF document transformer
 
-![qpdf](https://repo.x-cmd.io/qpdf.svg)
+![qpdf](https://repo.x-cmd.io/qpdf.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,32 @@ x install qpdf
 - **最新版本**: `v12.4.1` (2026-08-27)
 - **最近提交**: 2026-09-06
 - **Release 含资产**: 17 个
-- **发布时间**: 2026-08-27T23:56:39Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [qpdf-12.4.1-bin-linux-x86_64.zip](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1-bin-linux-x86_64.zip) | 3.9 MiB | `native/linux/x64` |
+| [qpdf-12.4.1-doc.zip](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1-doc.zip) | 15.9 MiB | `other` |
+| [qpdf-12.4.1-mingw32.exe](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1-mingw32.exe) | 11.5 MiB | `other` |
+| [qpdf-12.4.1-mingw32.zip](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1-mingw32.zip) | 23.1 MiB | `other` |
+| [qpdf-12.4.1-mingw64.exe](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1-mingw64.exe) | 11.3 MiB | `other` |
+| [qpdf-12.4.1-mingw64.zip](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1-mingw64.zip) | 22.9 MiB | `other` |
+| [qpdf-12.4.1-msvc32.exe](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1-msvc32.exe) | 11.5 MiB | `native/win/x64` |
+| [qpdf-12.4.1-msvc32.zip](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1-msvc32.zip) | 24.5 MiB | `native/win/x64` |
+| [qpdf-12.4.1-msvc64.exe](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1-msvc64.exe) | 12.9 MiB | `native/win/x64` |
+| [qpdf-12.4.1-msvc64.zip](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1-msvc64.zip) | 26.9 MiB | `native/win/x64` |
+| [qpdf-12.4.1-x86_64.AppImage](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1-x86_64.AppImage) | 9.5 MiB | `other` |
+| [qpdf-12.4.1-x86_64.AppImage.zsync](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1-x86_64.AppImage.zsync) | 33.4 KiB | `other` |
+| [qpdf-12.4.1.sha256](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1.sha256) | 2.2 KiB | `other` |
+| [qpdf-12.4.1.sha256.sigstore](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1.sha256.sigstore) | 6.3 KiB | `other` |
+| [qpdf-12.4.1.tar.gz](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1.tar.gz) | 18.8 MiB | `native/unknown` |
+| [qpdf-12.4.1.tar.gz.asc](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1.tar.gz.asc) | 833 B | `other` |
+| [vcpkg.zip](https://github.com/qpdf/qpdf/releases/download/v12.4.1/vcpkg.zip) | 132.9 MiB | `other` |
 
 ## 流行度
 
-- **Star**: 5,399 · **Fork**: 399 · **开放 issue**: 820 · **贡献者**: 51
+- **Star**: 5,401 · **Fork**: 399 · **开放 issue**: 820 · **贡献者**: 51
 
 ## 累计统计
 
@@ -72,4 +93,4 @@ qpdf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T03:53:22Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:07:15Z._
