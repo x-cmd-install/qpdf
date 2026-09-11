@@ -7,7 +7,7 @@ about:
   latestVersion: "v12.4.1"
   latestRelease: "v12.4.1"
   latestPrerelease: "v11.6.0"
-  collectedAt: 2026-09-11T03:50:21Z
+  collectedAt: 2026-09-11T20:52:17Z
 timeline:
   created: 2012-06-03
   lastCommit: 2026-09-06
@@ -15,9 +15,9 @@ timeline:
   lastRelease: 2026-08-27
   lastPrerelease: 2023-09-03
 popularity:
-  star: 5400
+  star: 5407
   watcher: 75
-  fork: 399
+  fork: 400
   release: 63
   contributor: 51
   pullRequest: 854
@@ -95,7 +95,7 @@ total:
   commit: 4841
 ---
 path: /home/runner/.x-repo/github.com/qpdf/qpdf
-collectedAt: 2026-09-11T03:50:37Z
+collectedAt: 2026-09-11T20:52:24Z
 loc:
   Cpp:
     code: 50145
