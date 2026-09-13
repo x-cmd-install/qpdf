@@ -1,74 +1,88 @@
-- repo: cygwin
-  srcname: qpdf
+- repo: slackwarearm_15_0
+  subrepo: slackware
   binname: qpdf
   visiblename: qpdf
-  version: 12.4.1
-  origversion: 12.4.1-1
-  status: newest
-  summary: PDF transformation tool
-  maintainers:
-    - marco.atzeri@cygwin
-  licenses:
-    - Apache-2.0
-  categories:
-    - Graphics
-- repo: pkgsrc_current
-  srcname: print/qpdf
-  binname: qpdf
-  visiblename: print/qpdf
-  version: 12.4.1
+  version: 10.5.0
   origversion: null
-  status: newest
-  summary: Structural, content-preserving transformations on PDF files
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - print
-- repo: pld
-  srcname: qpdf
-  visiblename: qpdf
-  version: 12.2.0
-  origversion: 12.2.0-1
   status: outdated
-- repo: artix
-  subrepo: world
-  srcname: qpdf
-  binname: qpdf
-  visiblename: qpdf
-  version: 12.4.1
-  origversion: 12.4.1-1
-  status: newest
-  summary: 'QPDF: A Content-Preserving PDF Transformation System'
-  licenses:
-    - Apache-2.0
-    - Artistic-2.0
-- repo: cygwin
-  srcname: qpdf
-  binname: qpdf-debuginfo
-  visiblename: qpdf-debuginfo
-  version: 12.4.1
-  origversion: 12.4.1-1
-  status: newest
-  summary: PDF transformation tool
   maintainers:
-    - marco.atzeri@cygwin
+    - volkerdi@slackware.com
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: qpdf
+  binnames:
+    - qpdf
+    - qpdf-libs
+    - qpdf-devel
+    - qpdf-doc
+    - qpdf-debuginfo
+    - qpdf-debugsource
+  visiblename: qpdf
+  version: 10.3.1
+  origversion: 10.3.1-4.el9_0.1
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files
   licenses:
-    - Apache-2.0
+    - (Artistic 2.0 or ASL 2.0) and MIT
   categories:
-    - Debug
-- repo: kaos
-  subrepo: main
+    - Unspecified
+- repo: eurolinux_9
+  subrepo: appstream
   srcname: qpdf
-  binname: qpdf
+  binnames:
+    - qpdf
+    - qpdf-libs
+    - qpdf-devel
+    - qpdf-doc
+    - qpdf-debuginfo
+    - qpdf-debugsource
   visiblename: qpdf
-  version: 12.4.1
-  origversion: 12.4.1-1
-  status: newest
-  summary: 'QPDF: A Content-Preserving PDF Transformation System'
-  maintainers:
-    - demm@kaosx.us
+  version: 10.3.1
+  origversion: 10.3.1-6.el9
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files
   licenses:
-    - custom:Artistic-2.0
+    - (Artistic 2.0 or ASL 2.0) and MIT
+  categories:
+    - Unspecified
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: qpdf
+  binnames:
+    - qpdf
+    - qpdf-libs
+    - qpdf-devel
+    - qpdf-doc
+    - qpdf-debuginfo
+    - qpdf-debugsource
+  visiblename: qpdf
+  version: 10.3.1
+  origversion: 10.3.1-7.el9
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files
+  licenses:
+    - (Artistic 2.0 or ASL 2.0) and MIT
+  categories:
+    - Unspecified
+- repo: eurolinux_9
+  subrepo: baseos
+  srcname: qpdf
+  binnames:
+    - qpdf
+    - qpdf-libs
+    - qpdf-devel
+    - qpdf-doc
+    - qpdf-debuginfo
+    - qpdf-debugsource
+  visiblename: qpdf
+  version: 10.3.1
+  origversion: 10.3.1-4.el9
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files
+  licenses:
+    - (Artistic 2.0 or ASL 2.0) and MIT
+  categories:
+    - Unspecified
 - repo: kiss_community
   subrepo: community
   srcname: qpdf
@@ -81,18 +95,6 @@
 - repo: manjaro_stable
   subrepo: extra
   srcname: qpdf
-  binname: qpdf
-  visiblename: qpdf
-  version: 12.4.1
-  origversion: 12.4.1-1
-  status: newest
-  summary: 'QPDF: A Content-Preserving PDF Transformation System'
-  licenses:
-    - Apache-2.0
-    - Artistic-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: qpdf
   binname: qpdf-docs
   visiblename: qpdf-docs
   version: 12.4.1
@@ -114,19 +116,7 @@
   licenses:
     - Apache-2.0
     - Artistic-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: qpdf
-  binname: qpdf
-  visiblename: qpdf
-  version: 12.4.1
-  origversion: 12.4.1-1
-  status: newest
-  summary: 'QPDF: A Content-Preserving PDF Transformation System'
-  licenses:
-    - Apache-2.0
-    - Artistic-2.0
-- repo: manjaro_unstable
+- repo: manjaro_testing
   subrepo: extra
   srcname: qpdf
   binname: qpdf-docs
@@ -138,54 +128,57 @@
   licenses:
     - Apache-2.0
     - Artistic-2.0
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: qpdf
-  binnames:
-    - libqpdf-dev
-    - libqpdf21
-    - qpdf
+- repo: aosc
+  srcname: app-doc/qpdf
+  binname: qpdf
   visiblename: qpdf
-  version: 8.4.0
-  origversion: 8.4.0-2
+  version: 12.3.2
+  origversion: null
   status: outdated
+  summary: Command-line programs and library for handling PDF files
   maintainers:
-    - qjb@debian.org
+    - fallback-mnt-aosc@repology
   categories:
-    - libdevel
-- repo: pureos_byzantium
-  subrepo: byzantium/main
+    - libs
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: qpdf
+  binname: qpdf
+  visiblename: qpdf
+  version: 12.4.1
+  origversion: 12.4.1-1
+  status: newest
+  summary: 'QPDF: A Content-Preserving PDF Transformation System'
+  licenses:
+    - Apache-2.0
+    - Artistic-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: qpdf
+  binname: qpdf-docs
+  visiblename: qpdf-docs
+  version: 12.4.1
+  origversion: 12.4.1-1
+  status: newest
+  summary: 'QPDF: A Content-Preserving PDF Transformation System (documentation)'
+  licenses:
+    - Apache-2.0
+    - Artistic-2.0
+- repo: apertis_v2023
+  subrepo: v2023/development
   srcname: qpdf
   binnames:
-    - libqpdf-dev
     - libqpdf28
+    - libqpdf-dev
     - qpdf
   visiblename: qpdf
   version: 10.1.0
-  origversion: 10.1.0-1
+  origversion: 10.1.0-1apertis0
   status: outdated
   maintainers:
     - qjb@debian.org
-  categories:
-    - libdevel
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: qpdf
-  binnames:
-    - libqpdf-dev
-    - libqpdf30
-    - qpdf
-    - qpdf-doc
-  visiblename: qpdf
-  version: 12.2.0
-  origversion: 12.2.0-1
-  status: outdated
-  maintainers:
-    - qjb@debian.org
-  categories:
-    - libdevel
-- repo: raspbian_oldstable
-  subrepo: main
+- repo: apertis_v2024
+  subrepo: v2024/development
   srcname: qpdf
   binnames:
     - libqpdf29
@@ -193,14 +186,25 @@
     - qpdf
   visiblename: qpdf
   version: 11.3.0
-  origversion: 11.3.0-1+deb12u1
+  origversion: 11.3.0-1+deb12u1+apertis0
   status: outdated
   maintainers:
     - qjb@debian.org
-  categories:
-    - text
-- repo: raspbian_stable
-  subrepo: main
+- repo: apertis_v2025
+  subrepo: v2025/development
+  srcname: qpdf
+  binnames:
+    - libqpdf29
+    - libqpdf-dev
+    - qpdf
+  visiblename: qpdf
+  version: 11.3.0
+  origversion: 11.3.0-1+deb12u1+apertis0
+  status: outdated
+  maintainers:
+    - qjb@debian.org
+- repo: apertis_v2026
+  subrepo: v2026/development
   srcname: qpdf
   binnames:
     - libqpdf30
@@ -209,28 +213,12 @@
     - qpdf-doc
   visiblename: qpdf
   version: 12.2.0
-  origversion: 12.2.0-1
+  origversion: 12.2.0-1+apertis0
   status: outdated
   maintainers:
     - qjb@debian.org
-  categories:
-    - text
-- repo: cygwin
-  srcname: qpdf
-  binname: libqpdf30
-  visiblename: libqpdf30
-  version: 12.4.1
-  origversion: 12.4.1-1
-  status: newest
-  summary: PDF transformation tool
-  maintainers:
-    - marco.atzeri@cygwin
-  licenses:
-    - Apache-2.0
-  categories:
-    - Graphics
-- repo: raspbian_testing
-  subrepo: main
+- repo: apertis_v2027
+  subrepo: v2027dev1/development
   srcname: qpdf
   binnames:
     - libqpdf30
@@ -238,13 +226,27 @@
     - qpdf
     - qpdf-doc
   visiblename: qpdf
-  version: 12.4.1
-  origversion: 12.4.1-1
-  status: newest
+  version: 12.2.0
+  origversion: 12.2.0-1+apertis0
+  status: outdated
   maintainers:
     - qjb@debian.org
-  categories:
-    - text
+- repo: gobolinux
+  srcname: Qpdf
+  visiblename: Qpdf
+  version: 12.2.0
+  origversion: null
+  status: outdated
+  summary: A content-preserving PDF transformation system
+  licenses:
+    - Artistic License version 2
+- repo: homebrew
+  srcname: qpdf
+  visiblename: qpdf
+  version: 12.4.1
+  origversion: null
+  status: newest
+  summary: Tools for and transforming and inspecting PDF files
 - repo: aerynos
   srcname: qpdf
   visiblename: qpdf
@@ -254,13 +256,6 @@
   summary: Command-line tools and library for transforming PDF files
   licenses:
     - Apache-2.0
-- repo: aix_osp
-  srcname: qpdf
-  visiblename: qpdf
-  version: 5.1.3
-  origversion: 5.1.3-1
-  status: legacy
-  vulnerable: true
 - repo: almalinux_9
   subrepo: AppStream
   srcname: qpdf
@@ -282,380 +277,378 @@
     - (Artistic 2.0 or ASL 2.0) and MIT
   categories:
     - Unspecified
-- repo: arch
-  subrepo: extra
+- repo: alpine_3_17
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-dev
+  visiblename: qpdf-dev
+  version: 11.2.0
+  origversion: 11.2.0-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-libs
+  visiblename: qpdf-libs
+  version: 11.2.0
+  origversion: 11.2.0-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files (libraries)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-fix-qdf
+  visiblename: qpdf-fix-qdf
+  version: 11.2.0
+  origversion: 11.2.0-r0
+  status: outdated
+  summary: Repair PDF files in QDF form after editing
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_17
+  subrepo: community
   srcname: qpdf
   binname: qpdf
   visiblename: qpdf
+  version: 11.2.0
+  origversion: 11.2.0-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-doc
+  visiblename: qpdf-doc
+  version: 11.2.0
+  origversion: 11.2.0-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf
+  visiblename: qpdf
+  version: 11.3.0
+  origversion: 11.3.0-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: aix_osp
+  srcname: qpdf
+  visiblename: qpdf
+  version: 5.1.3
+  origversion: 5.1.3-1
+  status: legacy
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-dev
+  visiblename: qpdf-dev
+  version: 11.3.0
+  origversion: 11.3.0-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-doc
+  visiblename: qpdf-doc
+  version: 11.3.0
+  origversion: 11.3.0-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-fix-qdf
+  visiblename: qpdf-fix-qdf
+  version: 11.3.0
+  origversion: 11.3.0-r0
+  status: outdated
+  summary: Repair PDF files in QDF form after editing
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-libs
+  visiblename: qpdf-libs
+  version: 11.3.0
+  origversion: 11.3.0-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files (libraries)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf
+  visiblename: qpdf
+  version: 11.6.3
+  origversion: 11.6.3-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-dev
+  visiblename: qpdf-dev
+  version: 11.6.3
+  origversion: 11.6.3-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-doc
+  visiblename: qpdf-doc
+  version: 11.6.3
+  origversion: 11.6.3-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-fix-qdf
+  visiblename: qpdf-fix-qdf
+  version: 11.6.3
+  origversion: 11.6.3-r0
+  status: outdated
+  summary: Repair PDF files in QDF form after editing
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-libs
+  visiblename: qpdf-libs
+  version: 11.6.3
+  origversion: 11.6.3-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files (libraries)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf
+  visiblename: qpdf
+  version: 11.9.1
+  origversion: 11.9.1-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-dev
+  visiblename: qpdf-dev
+  version: 11.9.1
+  origversion: 11.9.1-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-doc
+  visiblename: qpdf-doc
+  version: 11.9.1
+  origversion: 11.9.1-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-fix-qdf
+  visiblename: qpdf-fix-qdf
+  version: 11.9.1
+  origversion: 11.9.1-r0
+  status: outdated
+  summary: Repair PDF files in QDF form after editing
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-libs
+  visiblename: qpdf-libs
+  version: 11.9.1
+  origversion: 11.9.1-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files (libraries)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf
+  visiblename: qpdf
+  version: 11.9.1
+  origversion: 11.9.1-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-dev
+  visiblename: qpdf-dev
+  version: 11.9.1
+  origversion: 11.9.1-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-doc
+  visiblename: qpdf-doc
+  version: 11.9.1
+  origversion: 11.9.1-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-fix-qdf
+  visiblename: qpdf-fix-qdf
+  version: 11.9.1
+  origversion: 11.9.1-r0
+  status: outdated
+  summary: Repair PDF files in QDF form after editing
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-libs
+  visiblename: qpdf-libs
+  version: 11.9.1
+  origversion: 11.9.1-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files (libraries)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf
+  visiblename: qpdf
+  version: 12.2.0
+  origversion: 12.2.0-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: qpdf
+  binname: qpdf-dev
+  visiblename: qpdf-dev
+  version: 12.2.0
+  origversion: 12.2.0-r0
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files (development files)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - Apache-2.0
+- repo: cygwin
+  srcname: qpdf
+  binname: libqpdf28
+  visiblename: libqpdf28
   version: 12.4.1
   origversion: 12.4.1-1
   status: newest
-  summary: 'QPDF: A Content-Preserving PDF Transformation System'
-  licenses:
-    - Apache-2.0
-    - Artistic-2.0
-- repo: alpine_3_17
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-libs
-  visiblename: qpdf-libs
-  version: 11.2.0
-  origversion: 11.2.0-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files (libraries)
+  summary: PDF transformation tool
   maintainers:
-    - ncopa@alpinelinux.org
+    - marco.atzeri@cygwin
   licenses:
     - Apache-2.0
-- repo: alpine_3_17
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-fix-qdf
-  visiblename: qpdf-fix-qdf
-  version: 11.2.0
-  origversion: 11.2.0-r0
-  status: outdated
-  summary: Repair PDF files in QDF form after editing
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_17
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf
-  visiblename: qpdf
-  version: 11.2.0
-  origversion: 11.2.0-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_17
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-doc
-  visiblename: qpdf-doc
-  version: 11.2.0
-  origversion: 11.2.0-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_17
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-dev
-  visiblename: qpdf-dev
-  version: 11.2.0
-  origversion: 11.2.0-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf
-  visiblename: qpdf
-  version: 11.3.0
-  origversion: 11.3.0-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-dev
-  visiblename: qpdf-dev
-  version: 11.3.0
-  origversion: 11.3.0-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-doc
-  visiblename: qpdf-doc
-  version: 11.3.0
-  origversion: 11.3.0-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-fix-qdf
-  visiblename: qpdf-fix-qdf
-  version: 11.3.0
-  origversion: 11.3.0-r0
-  status: outdated
-  summary: Repair PDF files in QDF form after editing
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-libs
-  visiblename: qpdf-libs
-  version: 11.3.0
-  origversion: 11.3.0-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files (libraries)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf
-  visiblename: qpdf
-  version: 11.6.3
-  origversion: 11.6.3-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-dev
-  visiblename: qpdf-dev
-  version: 11.6.3
-  origversion: 11.6.3-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-doc
-  visiblename: qpdf-doc
-  version: 11.6.3
-  origversion: 11.6.3-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-fix-qdf
-  visiblename: qpdf-fix-qdf
-  version: 11.6.3
-  origversion: 11.6.3-r0
-  status: outdated
-  summary: Repair PDF files in QDF form after editing
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-libs
-  visiblename: qpdf-libs
-  version: 11.6.3
-  origversion: 11.6.3-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files (libraries)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf
-  visiblename: qpdf
-  version: 11.9.1
-  origversion: 11.9.1-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-dev
-  visiblename: qpdf-dev
-  version: 11.9.1
-  origversion: 11.9.1-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-doc
-  visiblename: qpdf-doc
-  version: 11.9.1
-  origversion: 11.9.1-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-fix-qdf
-  visiblename: qpdf-fix-qdf
-  version: 11.9.1
-  origversion: 11.9.1-r0
-  status: outdated
-  summary: Repair PDF files in QDF form after editing
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-libs
-  visiblename: qpdf-libs
-  version: 11.9.1
-  origversion: 11.9.1-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files (libraries)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf
-  visiblename: qpdf
-  version: 11.9.1
-  origversion: 11.9.1-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-dev
-  visiblename: qpdf-dev
-  version: 11.9.1
-  origversion: 11.9.1-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: archpower_powerpc
-  srcname: qpdf
-  binname: qpdf-docs
-  visiblename: qpdf-docs
-  version: 12.3.2
-  origversion: 12.3.2-2
-  status: outdated
-  summary: 'QPDF: A Content-Preserving PDF Transformation System (documentation)'
-  licenses:
-    - Apache-2.0
-    - Artistic-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-doc
-  visiblename: qpdf-doc
-  version: 11.9.1
-  origversion: 11.9.1-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-fix-qdf
-  visiblename: qpdf-fix-qdf
-  version: 11.9.1
-  origversion: 11.9.1-r0
-  status: outdated
-  summary: Repair PDF files in QDF form after editing
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-libs
-  visiblename: qpdf-libs
-  version: 11.9.1
-  origversion: 11.9.1-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files (libraries)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf
-  visiblename: qpdf
-  version: 12.2.0
-  origversion: 12.2.0-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: qpdf
-  binname: qpdf-dev
-  visiblename: qpdf-dev
-  version: 12.2.0
-  origversion: 12.2.0-r0
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files (development files)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - Apache-2.0
+  categories:
+    - Graphics
 - repo: alpine_3_22
   subrepo: community
   srcname: qpdf
@@ -721,17 +714,6 @@
     - cielesti@protonmail.com
   licenses:
     - Apache-2.0
-- repo: archpower_powerpc
-  srcname: qpdf
-  binname: qpdf
-  visiblename: qpdf
-  version: 12.3.2
-  origversion: 12.3.2-2
-  status: outdated
-  summary: 'QPDF: A Content-Preserving PDF Transformation System'
-  licenses:
-    - Apache-2.0
-    - Artistic-2.0
 - repo: alpine_3_23
   subrepo: community
   srcname: qpdf
@@ -797,6 +779,20 @@
     - jvogel@stygian.me
   licenses:
     - Apache-2.0
+- repo: cygwin
+  srcname: qpdf
+  binname: libqpdf-devel
+  visiblename: libqpdf-devel
+  version: 12.4.1
+  origversion: 12.4.1-1
+  status: newest
+  summary: PDF transformation tool
+  maintainers:
+    - marco.atzeri@cygwin
+  licenses:
+    - Apache-2.0
+  categories:
+    - Graphics
 - repo: alpine_3_24
   subrepo: community
   srcname: qpdf
@@ -862,28 +858,6 @@
     - jvogel@stygian.me
   licenses:
     - Apache-2.0
-- repo: archpower_powerpc64le
-  srcname: qpdf
-  binname: qpdf
-  visiblename: qpdf
-  version: 12.3.2
-  origversion: 12.3.2-2
-  status: outdated
-  summary: 'QPDF: A Content-Preserving PDF Transformation System'
-  licenses:
-    - Apache-2.0
-    - Artistic-2.0
-- repo: archpower_powerpc64le
-  srcname: qpdf
-  binname: qpdf-docs
-  visiblename: qpdf-docs
-  version: 12.3.2
-  origversion: 12.3.2-2
-  status: outdated
-  summary: 'QPDF: A Content-Preserving PDF Transformation System (documentation)'
-  licenses:
-    - Apache-2.0
-    - Artistic-2.0
 - repo: alpine_edge
   subrepo: community
   srcname: qpdf
@@ -961,85 +935,18 @@
     - Apache-2.0
   categories:
     - System/Base
-- repo: aosc
-  srcname: app-doc/qpdf
+- repo: arch
+  subrepo: extra
+  srcname: qpdf
   binname: qpdf
   visiblename: qpdf
-  version: 12.3.2
-  origversion: null
-  status: outdated
-  summary: Command-line programs and library for handling PDF files
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - libs
-- repo: apertis_v2023
-  subrepo: v2023/development
-  srcname: qpdf
-  binnames:
-    - libqpdf28
-    - libqpdf-dev
-    - qpdf
-  visiblename: qpdf
-  version: 10.1.0
-  origversion: 10.1.0-1apertis0
-  status: outdated
-  maintainers:
-    - qjb@debian.org
-- repo: apertis_v2024
-  subrepo: v2024/development
-  srcname: qpdf
-  binnames:
-    - libqpdf29
-    - libqpdf-dev
-    - qpdf
-  visiblename: qpdf
-  version: 11.3.0
-  origversion: 11.3.0-1+deb12u1+apertis0
-  status: outdated
-  maintainers:
-    - qjb@debian.org
-- repo: apertis_v2025
-  subrepo: v2025/development
-  srcname: qpdf
-  binnames:
-    - libqpdf29
-    - libqpdf-dev
-    - qpdf
-  visiblename: qpdf
-  version: 11.3.0
-  origversion: 11.3.0-1+deb12u1+apertis0
-  status: outdated
-  maintainers:
-    - qjb@debian.org
-- repo: apertis_v2026
-  subrepo: v2026/development
-  srcname: qpdf
-  binnames:
-    - libqpdf30
-    - libqpdf-dev
-    - qpdf
-    - qpdf-doc
-  visiblename: qpdf
-  version: 12.2.0
-  origversion: 12.2.0-1+apertis0
-  status: outdated
-  maintainers:
-    - qjb@debian.org
-- repo: apertis_v2027
-  subrepo: v2027dev1/development
-  srcname: qpdf
-  binnames:
-    - libqpdf30
-    - libqpdf-dev
-    - qpdf
-    - qpdf-doc
-  visiblename: qpdf
-  version: 12.2.0
-  origversion: 12.2.0-1+apertis0
-  status: outdated
-  maintainers:
-    - qjb@debian.org
+  version: 12.4.1
+  origversion: 12.4.1-1
+  status: newest
+  summary: 'QPDF: A Content-Preserving PDF Transformation System'
+  licenses:
+    - Apache-2.0
+    - Artistic-2.0
 - repo: arch
   subrepo: extra
   srcname: qpdf
@@ -1049,6 +956,62 @@
   origversion: 12.4.1-1
   status: newest
   summary: 'QPDF: A Content-Preserving PDF Transformation System (documentation)'
+  licenses:
+    - Apache-2.0
+    - Artistic-2.0
+- repo: archpower_powerpc
+  srcname: qpdf
+  binname: qpdf-docs
+  visiblename: qpdf-docs
+  version: 12.3.2
+  origversion: 12.3.2-2
+  status: outdated
+  summary: 'QPDF: A Content-Preserving PDF Transformation System (documentation)'
+  licenses:
+    - Apache-2.0
+    - Artistic-2.0
+- repo: archpower_powerpc
+  srcname: qpdf
+  binname: qpdf
+  visiblename: qpdf
+  version: 12.3.2
+  origversion: 12.3.2-2
+  status: outdated
+  summary: 'QPDF: A Content-Preserving PDF Transformation System'
+  licenses:
+    - Apache-2.0
+    - Artistic-2.0
+- repo: archpower_powerpc64le
+  srcname: qpdf
+  binname: qpdf
+  visiblename: qpdf
+  version: 12.3.2
+  origversion: 12.3.2-2
+  status: outdated
+  summary: 'QPDF: A Content-Preserving PDF Transformation System'
+  licenses:
+    - Apache-2.0
+    - Artistic-2.0
+- repo: archpower_powerpc64le
+  srcname: qpdf
+  binname: qpdf-docs
+  visiblename: qpdf-docs
+  version: 12.3.2
+  origversion: 12.3.2-2
+  status: outdated
+  summary: 'QPDF: A Content-Preserving PDF Transformation System (documentation)'
+  licenses:
+    - Apache-2.0
+    - Artistic-2.0
+- repo: artix
+  subrepo: world
+  srcname: qpdf
+  binname: qpdf
+  visiblename: qpdf
+  version: 12.4.1
+  origversion: 12.4.1-1
+  status: newest
+  summary: 'QPDF: A Content-Preserving PDF Transformation System'
   licenses:
     - Apache-2.0
     - Artistic-2.0
@@ -1300,34 +1263,6 @@
     - jue@crux.nu
 - repo: cygwin
   srcname: qpdf
-  binname: libqpdf-devel
-  visiblename: libqpdf-devel
-  version: 12.4.1
-  origversion: 12.4.1-1
-  status: newest
-  summary: PDF transformation tool
-  maintainers:
-    - marco.atzeri@cygwin
-  licenses:
-    - Apache-2.0
-  categories:
-    - Graphics
-- repo: cygwin
-  srcname: qpdf
-  binname: libqpdf28
-  visiblename: libqpdf28
-  version: 12.4.1
-  origversion: 12.4.1-1
-  status: newest
-  summary: PDF transformation tool
-  maintainers:
-    - marco.atzeri@cygwin
-  licenses:
-    - Apache-2.0
-  categories:
-    - Graphics
-- repo: cygwin
-  srcname: qpdf
   binname: libqpdf29
   visiblename: libqpdf29
   version: 12.4.1
@@ -1340,6 +1275,48 @@
     - Apache-2.0
   categories:
     - Graphics
+- repo: cygwin
+  srcname: qpdf
+  binname: libqpdf30
+  visiblename: libqpdf30
+  version: 12.4.1
+  origversion: 12.4.1-1
+  status: newest
+  summary: PDF transformation tool
+  maintainers:
+    - marco.atzeri@cygwin
+  licenses:
+    - Apache-2.0
+  categories:
+    - Graphics
+- repo: cygwin
+  srcname: qpdf
+  binname: qpdf
+  visiblename: qpdf
+  version: 12.4.1
+  origversion: 12.4.1-1
+  status: newest
+  summary: PDF transformation tool
+  maintainers:
+    - marco.atzeri@cygwin
+  licenses:
+    - Apache-2.0
+  categories:
+    - Graphics
+- repo: cygwin
+  srcname: qpdf
+  binname: qpdf-debuginfo
+  visiblename: qpdf-debuginfo
+  version: 12.4.1
+  origversion: 12.4.1-1
+  status: newest
+  summary: PDF transformation tool
+  maintainers:
+    - marco.atzeri@cygwin
+  licenses:
+    - Apache-2.0
+  categories:
+    - Debug
 - repo: debian_11
   subrepo: bullseye/main
   srcname: qpdf
@@ -1496,82 +1473,6 @@
     - (Artistic 2.0 or ASL 2.0) and MIT
   categories:
     - Unspecified
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: qpdf
-  binnames:
-    - qpdf
-    - qpdf-libs
-    - qpdf-devel
-    - qpdf-doc
-    - qpdf-debuginfo
-    - qpdf-debugsource
-  visiblename: qpdf
-  version: 10.3.1
-  origversion: 10.3.1-4.el9_0.1
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files
-  licenses:
-    - (Artistic 2.0 or ASL 2.0) and MIT
-  categories:
-    - Unspecified
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: qpdf
-  binnames:
-    - qpdf
-    - qpdf-libs
-    - qpdf-devel
-    - qpdf-doc
-    - qpdf-debuginfo
-    - qpdf-debugsource
-  visiblename: qpdf
-  version: 10.3.1
-  origversion: 10.3.1-6.el9
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files
-  licenses:
-    - (Artistic 2.0 or ASL 2.0) and MIT
-  categories:
-    - Unspecified
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: qpdf
-  binnames:
-    - qpdf
-    - qpdf-libs
-    - qpdf-devel
-    - qpdf-doc
-    - qpdf-debuginfo
-    - qpdf-debugsource
-  visiblename: qpdf
-  version: 10.3.1
-  origversion: 10.3.1-7.el9
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files
-  licenses:
-    - (Artistic 2.0 or ASL 2.0) and MIT
-  categories:
-    - Unspecified
-- repo: eurolinux_9
-  subrepo: baseos
-  srcname: qpdf
-  binnames:
-    - qpdf
-    - qpdf-libs
-    - qpdf-devel
-    - qpdf-doc
-    - qpdf-debuginfo
-    - qpdf-debugsource
-  visiblename: qpdf
-  version: 10.3.1
-  origversion: 10.3.1-4.el9
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files
-  licenses:
-    - (Artistic 2.0 or ASL 2.0) and MIT
-  categories:
-    - Unspecified
 - repo: exherbo
   subrepo: arbor
   srcname: app-text/qpdf
@@ -1642,23 +1543,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: release
-  srcname: qpdf
-  binnames:
-    - qpdf
-    - qpdf-libs
-    - qpdf-devel
-    - qpdf-doc
-  visiblename: qpdf
-  version: 11.9.1
-  origversion: 11.9.1-2.fc41
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files
-  licenses:
-    - Apache-2.0 OR Artistic-2.0
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: updates
   srcname: qpdf
   binnames:
@@ -1669,6 +1553,23 @@
   visiblename: qpdf
   version: 11.9.1
   origversion: 11.9.1-3.fc41
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files
+  licenses:
+    - Apache-2.0 OR Artistic-2.0
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: qpdf
+  binnames:
+    - qpdf
+    - qpdf-libs
+    - qpdf-devel
+    - qpdf-doc
+  visiblename: qpdf
+  version: 11.9.1
+  origversion: 11.9.1-2.fc41
   status: outdated
   summary: Command-line tools and library for transforming PDF files
   licenses:
@@ -1693,23 +1594,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: release
-  srcname: qpdf
-  binnames:
-    - qpdf
-    - qpdf-libs
-    - qpdf-devel
-    - qpdf-doc
-  visiblename: qpdf
-  version: 12.2.0
-  origversion: 12.2.0-2.fc43
-  status: legacy
-  summary: Command-line tools and library for transforming PDF files
-  licenses:
-    - Apache-2.0 OR Artistic-2.0
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: updates
   srcname: qpdf
   binnames:
@@ -1721,6 +1605,23 @@
   version: 12.3.2
   origversion: 12.3.2-1.fc43
   status: outdated
+  summary: Command-line tools and library for transforming PDF files
+  licenses:
+    - Apache-2.0 OR Artistic-2.0
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: qpdf
+  binnames:
+    - qpdf
+    - qpdf-libs
+    - qpdf-devel
+    - qpdf-doc
+  visiblename: qpdf
+  version: 12.2.0
+  origversion: 12.2.0-2.fc43
+  status: legacy
   summary: Command-line tools and library for transforming PDF files
   licenses:
     - Apache-2.0 OR Artistic-2.0
@@ -1743,18 +1644,19 @@
     - Apache-2.0 OR Artistic-2.0
   categories:
     - Unspecified
-- repo: pkgsrc_2026_1
-  srcname: print/qpdf
+- repo: kaos
+  subrepo: main
+  srcname: qpdf
   binname: qpdf
-  visiblename: print/qpdf
-  version: 12.3.2
-  origversion: null
-  status: outdated
-  summary: Structural, content-preserving transformations on PDF files
+  visiblename: qpdf
+  version: 12.4.1
+  origversion: 12.4.1-1
+  status: newest
+  summary: 'QPDF: A Content-Preserving PDF Transformation System'
   maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - print
+    - demm@kaosx.us
+  licenses:
+    - custom:Artistic-2.0
 - repo: fedora_rawhide
   subrepo: development
   srcname: qpdf
@@ -1834,22 +1736,6 @@
   origversion: null
   status: outdated
   summary: Command-line tools and library for transforming PDF files
-- repo: gobolinux
-  srcname: Qpdf
-  visiblename: Qpdf
-  version: 12.2.0
-  origversion: null
-  status: outdated
-  summary: A content-preserving PDF transformation system
-  licenses:
-    - Artistic License version 2
-- repo: homebrew
-  srcname: qpdf
-  visiblename: qpdf
-  version: 12.4.1
-  origversion: null
-  status: newest
-  summary: Tools for and transforming and inspecting PDF files
 - repo: kali_rolling
   subrepo: main
   srcname: qpdf
@@ -1993,12 +1879,12 @@
 - repo: manjaro_stable
   subrepo: extra
   srcname: qpdf
-  binname: qpdf-docs
-  visiblename: qpdf-docs
+  binname: qpdf
+  visiblename: qpdf
   version: 12.4.1
   origversion: 12.4.1-1
   status: newest
-  summary: 'QPDF: A Content-Preserving PDF Transformation System (documentation)'
+  summary: 'QPDF: A Content-Preserving PDF Transformation System'
   licenses:
     - Apache-2.0
     - Artistic-2.0
@@ -2216,7 +2102,7 @@
     - packaging@lists.openkylin.top
   categories:
     - libs
-- repo: pkgsrc_2026_2
+- repo: pkgsrc_2026_1
   srcname: print/qpdf
   binname: qpdf
   visiblename: print/qpdf
@@ -2323,13 +2209,6 @@
     - Apache-2.0
   categories:
     - Development/Libraries/C and C++
-- repo: vcpkg
-  srcname: qpdf
-  visiblename: qpdf
-  version: 12.4.0
-  origversion: null
-  status: outdated
-  summary: A content-preserving PDF document transformer
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: qpdf
@@ -2364,24 +2243,24 @@
 - repo: parabola
   subrepo: extra
   srcname: qpdf
-  binname: qpdf
-  visiblename: qpdf
-  version: 12.4.1
-  origversion: 12.4.1-1
-  status: newest
-  summary: 'QPDF: A Content-Preserving PDF Transformation System'
-  licenses:
-    - Apache-2.0
-    - Artistic-2.0
-- repo: parabola
-  subrepo: extra
-  srcname: qpdf
   binname: qpdf-docs
   visiblename: qpdf-docs
   version: 12.4.1
   origversion: 12.4.1-1
   status: newest
   summary: 'QPDF: A Content-Preserving PDF Transformation System (documentation)'
+  licenses:
+    - Apache-2.0
+    - Artistic-2.0
+- repo: parabola
+  subrepo: extra
+  srcname: qpdf
+  binname: qpdf
+  visiblename: qpdf
+  version: 12.4.1
+  origversion: 12.4.1-1
+  status: newest
+  summary: 'QPDF: A Content-Preserving PDF Transformation System'
   licenses:
     - Apache-2.0
     - Artistic-2.0
@@ -2455,6 +2334,129 @@
     - Artistic-2
   categories:
     - app:console
+- repo: pkgsrc_2026_2
+  srcname: print/qpdf
+  binname: qpdf
+  visiblename: print/qpdf
+  version: 12.3.2
+  origversion: null
+  status: outdated
+  summary: Structural, content-preserving transformations on PDF files
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - print
+- repo: pkgsrc_current
+  srcname: print/qpdf
+  binname: qpdf
+  visiblename: print/qpdf
+  version: 12.4.1
+  origversion: null
+  status: newest
+  summary: Structural, content-preserving transformations on PDF files
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - print
+- repo: pld
+  srcname: qpdf
+  visiblename: qpdf
+  version: 12.2.0
+  origversion: 12.2.0-1
+  status: outdated
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: qpdf
+  binnames:
+    - libqpdf-dev
+    - libqpdf21
+    - qpdf
+  visiblename: qpdf
+  version: 8.4.0
+  origversion: 8.4.0-2
+  status: outdated
+  maintainers:
+    - qjb@debian.org
+  categories:
+    - libdevel
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: qpdf
+  binnames:
+    - libqpdf-dev
+    - libqpdf28
+    - qpdf
+  visiblename: qpdf
+  version: 10.1.0
+  origversion: 10.1.0-1
+  status: outdated
+  maintainers:
+    - qjb@debian.org
+  categories:
+    - libdevel
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: qpdf
+  binnames:
+    - libqpdf-dev
+    - libqpdf30
+    - qpdf
+    - qpdf-doc
+  visiblename: qpdf
+  version: 12.2.0
+  origversion: 12.2.0-1
+  status: outdated
+  maintainers:
+    - qjb@debian.org
+  categories:
+    - libdevel
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: qpdf
+  binnames:
+    - libqpdf29
+    - libqpdf-dev
+    - qpdf
+  visiblename: qpdf
+  version: 11.3.0
+  origversion: 11.3.0-1+deb12u1
+  status: outdated
+  maintainers:
+    - qjb@debian.org
+  categories:
+    - text
+- repo: raspbian_stable
+  subrepo: main
+  srcname: qpdf
+  binnames:
+    - libqpdf30
+    - libqpdf-dev
+    - qpdf
+    - qpdf-doc
+  visiblename: qpdf
+  version: 12.2.0
+  origversion: 12.2.0-1
+  status: outdated
+  maintainers:
+    - qjb@debian.org
+  categories:
+    - text
+- repo: raspbian_testing
+  subrepo: main
+  srcname: qpdf
+  binnames:
+    - libqpdf30
+    - libqpdf-dev
+    - qpdf
+    - qpdf-doc
+  visiblename: qpdf
+  version: 12.4.1
+  origversion: 12.4.1-1
+  status: newest
+  maintainers:
+    - qjb@debian.org
+  categories:
+    - text
 - repo: ravenports
   srcname: qpdf
   binname: qpdf
@@ -2567,15 +2569,6 @@
   version: 12.4.1
   origversion: null
   status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: qpdf
-  visiblename: qpdf
-  version: 10.5.0
-  origversion: null
-  status: outdated
   maintainers:
     - volkerdi@slackware.com
 - repo: solus
@@ -2808,22 +2801,6 @@
     - qpdf
     - qpdf-doc
   visiblename: qpdf
-  version: 12.4.0
-  origversion: 12.4.0-1
-  status: outdated
-  maintainers:
-    - qjb@debian.org
-  categories:
-    - libs
-- repo: ubuntu_26_10_proposed
-  subrepo: stonking-proposed/main
-  srcname: qpdf
-  binnames:
-    - libqpdf30
-    - libqpdf-dev
-    - qpdf
-    - qpdf-doc
-  visiblename: qpdf
   version: 12.4.1
   origversion: 12.4.1-1
   status: newest
@@ -2831,6 +2808,13 @@
     - qjb@debian.org
   categories:
     - libs
+- repo: vcpkg
+  srcname: qpdf
+  visiblename: qpdf
+  version: 12.4.0
+  origversion: null
+  status: outdated
+  summary: A content-preserving PDF document transformer
 - repo: void_x86_64
   subrepo: x86_64
   srcname: qpdf
@@ -2889,70 +2873,53 @@
   summary: PDF conversion software
   licenses:
     - Apache Software License 2.0
-- repo: ptxdist
+- repo: amazon_2
   srcname: qpdf
   visiblename: qpdf
-  version: 8.4.2
+  version: 5.0.1
+  origversion: 5.0.1-4.amzn2.0.2
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files
+  licenses:
+    - Artistic 2.0 and MIT
+  categories:
+    - System Environment/Base
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: qpdf
+  binname: qpdf
+  visiblename: qpdf
+  version: 3.0.2
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: qpdf
+  binname: qpdf
+  visiblename: qpdf
+  version: 6.0.0
   origversion: null
   status: outdated
-  licenses:
-    - Apache-2.0
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
+- repo: hpux_11_31
+  subrepo: ia64_32
   srcname: qpdf
+  binname: qpdf
   visiblename: qpdf
-  version: 7.1.1
-  origversion: 7.1.1-10.el8
+  version: 6.0.0
+  origversion: null
   status: outdated
-  summary: Command-line tools and library for transforming PDF files
-  licenses:
-    - (Artistic 2.0 or ASL 2.0) and MIT
-  categories:
-    - Unspecified
   vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
+- repo: hpux_11_31
+  subrepo: ia64_64
   srcname: qpdf
+  binname: qpdf
   visiblename: qpdf
-  version: 7.1.1
-  origversion: 7.1.1-10.el8
+  version: 6.0.0
+  origversion: null
   status: outdated
-  summary: Command-line tools and library for transforming PDF files
-  maintainers:
-    - packager@cloudlinux.com
-  licenses:
-    - (Artistic 2.0 or ASL 2.0) and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: qpdf
-  visiblename: qpdf
-  version: 7.1.1
-  origversion: 7.1.1-7.el8
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files
-  licenses:
-    - (Artistic 2.0 or ASL 2.0) and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: centos_8
-  subrepo: AppStream
-  srcname: qpdf
-  visiblename: qpdf
-  version: 7.1.1
-  origversion: 7.1.1-10.el8
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files
-  maintainers:
-    - bugs@centos.org
-  licenses:
-    - (Artistic 2.0 or ASL 2.0) and MIT
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: adelie_current
   subrepo: user
@@ -3045,6 +3012,21 @@
   origversion: 6.0.0-1
   status: outdated
   vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: qpdf
+  visiblename: qpdf
+  version: 7.1.1
+  origversion: 7.1.1-10.el8
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files
+  maintainers:
+    - packager@cloudlinux.com
+  licenses:
+    - (Artistic 2.0 or ASL 2.0) and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: amazon_2
   srcname: qpdf
   visiblename: qpdf
@@ -3081,18 +3063,6 @@
   categories:
     - System Environment/Base
   vulnerable: true
-- repo: amazon_2
-  srcname: qpdf
-  visiblename: qpdf
-  version: 5.0.1
-  origversion: 5.0.1-4.amzn2.0.2
-  status: outdated
-  summary: Command-line tools and library for transforming PDF files
-  licenses:
-    - Artistic 2.0 and MIT
-  categories:
-    - System Environment/Base
-  vulnerable: true
 - repo: centos_7
   subrepo: os
   srcname: qpdf
@@ -3105,6 +3075,21 @@
     - Artistic 2.0 and MIT
   categories:
     - System Environment/Base
+  vulnerable: true
+- repo: centos_8
+  subrepo: AppStream
+  srcname: qpdf
+  visiblename: qpdf
+  version: 7.1.1
+  origversion: 7.1.1-10.el8
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - (Artistic 2.0 or ASL 2.0) and MIT
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: centos_stream_8
   subrepo: AppStream
@@ -3148,6 +3133,32 @@
   categories:
     - System Environment/Base
   vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: qpdf
+  visiblename: qpdf
+  version: 7.1.1
+  origversion: 7.1.1-10.el8
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files
+  licenses:
+    - (Artistic 2.0 or ASL 2.0) and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: qpdf
+  visiblename: qpdf
+  version: 7.1.1
+  origversion: 7.1.1-7.el8
+  status: outdated
+  summary: Command-line tools and library for transforming PDF files
+  licenses:
+    - (Artistic 2.0 or ASL 2.0) and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: fedora_40
   subrepo: release
   srcname: qpdf
@@ -3167,54 +3178,6 @@
     - Apache-2.0 OR Artistic-2.0
   categories:
     - Unspecified
-  vulnerable: true
-- repo: openeuler_20_03_lts_sp4
-  srcname: qpdf
-  visiblename: qpdf
-  version: 8.4.2
-  origversion: 8.4.2-4.oe2003sp4
-  status: outdated
-  summary: A command-line program to transform PDF files
-  licenses:
-    - (Artistic 2.0 or ASL 2.0) and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: qpdf
-  binname: qpdf
-  visiblename: qpdf
-  version: 3.0.2
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: qpdf
-  binname: qpdf
-  visiblename: qpdf
-  version: 6.0.0
-  origversion: null
-  status: outdated
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_32
-  srcname: qpdf
-  binname: qpdf
-  visiblename: qpdf
-  version: 6.0.0
-  origversion: null
-  status: outdated
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_64
-  srcname: qpdf
-  binname: qpdf
-  visiblename: qpdf
-  version: 6.0.0
-  origversion: null
-  status: outdated
   vulnerable: true
 - repo: mageia_9
   subrepo: core/updates
@@ -3236,11 +3199,39 @@
   categories:
     - System/Printing
   vulnerable: true
+- repo: ubuntu_18_04
+  subrepo: bionic/main
+  srcname: qpdf
+  binnames:
+    - libqpdf21
+    - libqpdf-dev
+    - qpdf
+  visiblename: qpdf
+  version: 8.0.2
+  origversion: 8.0.2-3
+  status: outdated
+  maintainers:
+    - qjb@debian.org
+  categories:
+    - libs
+  vulnerable: true
 - repo: openeuler_20_03_lts_sp3
   srcname: qpdf
   visiblename: qpdf
   version: 8.4.2
   origversion: 8.4.2-3.oe1
+  status: outdated
+  summary: A command-line program to transform PDF files
+  licenses:
+    - (Artistic 2.0 or ASL 2.0) and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: openeuler_20_03_lts_sp4
+  srcname: qpdf
+  visiblename: qpdf
+  version: 8.4.2
+  origversion: 8.4.2-4.oe2003sp4
   status: outdated
   summary: A command-line program to transform PDF files
   licenses:
@@ -3411,6 +3402,15 @@
   categories:
     - Development/Libraries/C and C++
   vulnerable: true
+- repo: ptxdist
+  srcname: qpdf
+  visiblename: qpdf
+  version: 8.4.2
+  origversion: null
+  status: outdated
+  licenses:
+    - Apache-2.0
+  vulnerable: true
 - repo: rocky_8
   subrepo: AppStream
   srcname: qpdf
@@ -3425,6 +3425,22 @@
     - (Artistic 2.0 or ASL 2.0) and MIT
   categories:
     - Unspecified
+  vulnerable: true
+- repo: trisquel_10_0
+  subrepo: nabia/main
+  srcname: qpdf
+  binnames:
+    - libqpdf26
+    - libqpdf-dev
+    - qpdf
+  visiblename: qpdf
+  version: 9.1.1
+  origversion: 9.1.1-1build1
+  status: outdated
+  maintainers:
+    - qjb@debian.org
+  categories:
+    - libs
   vulnerable: true
 - repo: trisquel_10_0
   subrepo: nabia-updates/main
@@ -3455,22 +3471,6 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - libs
-  vulnerable: true
-- repo: trisquel_10_0
-  subrepo: nabia/main
-  srcname: qpdf
-  binnames:
-    - libqpdf26
-    - libqpdf-dev
-    - qpdf
-  visiblename: qpdf
-  version: 9.1.1
-  origversion: 9.1.1-1build1
-  status: outdated
-  maintainers:
-    - qjb@debian.org
   categories:
     - libs
   vulnerable: true
@@ -3567,19 +3567,19 @@
   categories:
     - libs
   vulnerable: true
-- repo: ubuntu_18_04
-  subrepo: bionic/main
+- repo: ubuntu_20_04
+  subrepo: focal-updates/main
   srcname: qpdf
   binnames:
-    - libqpdf21
+    - libqpdf26
     - libqpdf-dev
     - qpdf
   visiblename: qpdf
-  version: 8.0.2
-  origversion: 8.0.2-3
+  version: 9.1.1
+  origversion: 9.1.1-1ubuntu0.1
   status: outdated
   maintainers:
-    - qjb@debian.org
+    - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - libs
   vulnerable: true
@@ -3599,16 +3599,17 @@
   categories:
     - libs
   vulnerable: true
-- repo: ubuntu_20_04
-  subrepo: focal-updates/main
+- repo: ubuntu_24_04
+  subrepo: noble/main
   srcname: qpdf
   binnames:
-    - libqpdf26
+    - libqpdf29t64
     - libqpdf-dev
     - qpdf
+    - qpdf-doc
   visiblename: qpdf
-  version: 9.1.1
-  origversion: 9.1.1-1ubuntu0.1
+  version: 11.9.0
+  origversion: 11.9.0-1.1build1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -3626,23 +3627,6 @@
   visiblename: qpdf
   version: 11.9.0
   origversion: 11.9.0-1.1ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - libs
-  vulnerable: true
-- repo: ubuntu_24_04
-  subrepo: noble/main
-  srcname: qpdf
-  binnames:
-    - libqpdf29t64
-    - libqpdf-dev
-    - qpdf
-    - qpdf-doc
-  visiblename: qpdf
-  version: 11.9.0
-  origversion: 11.9.0-1.1build1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
