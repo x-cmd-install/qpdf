@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,408 · **Forks**: 400 · **Open issues**: 820 · **Contributors**: 51
+- **Stars**: 5,410 · **Forks**: 400 · **Open issues**: 820 · **Contributors**: 51
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-13 | 1 | 18 | 2 | 2 | 2 | 36 |
-| last60d | 2026-07-14 | 2 | 21 | 2 | 3 | 2 | 42 |
-| 90d | 2026-06-14 | 2 | 23 | 4 | 5 | 6 | 44 |
-| last180d | 2026-03-16 | 3 | 56 | 11 | 11 | 10 | 88 |
-| 360d | 2025-09-17 | 6 | 147 | 15 | 28 | 14 | 355 |
-| last720d | 2024-09-22 | 11 | 312 | 24 | 63 | 41 | 1164 |
+| 30d | 2026-08-14 | 1 | 18 | 2 | 2 | 2 | 25 |
+| last60d | 2026-07-15 | 2 | 21 | 2 | 3 | 2 | 42 |
+| 90d | 2026-06-15 | 2 | 23 | 4 | 5 | 6 | 43 |
+| last180d | 2026-03-17 | 3 | 56 | 11 | 11 | 10 | 87 |
+| 360d | 2025-09-18 | 6 | 147 | 15 | 28 | 14 | 338 |
+| last720d | 2024-09-23 | 11 | 312 | 24 | 62 | 41 | 1164 |
 
 ## Release assets
 
@@ -89,7 +89,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **265** distros on [repology.org](https://repology.org/project/qpdf). **46** are ✅ on the latest upstream release, **204** are ⚠️ on an older version.
+Reported by **264** distros on [repology.org](https://repology.org/project/qpdf). **46** are ✅ on the latest upstream release, **203** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -115,4 +115,4 @@ Install metadata for qpdf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260912.yml` · 2026-09-12T03:52:53Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T04:01:15Z._
