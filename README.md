@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,410 · **Forks**: 400 · **Open issues**: 820 · **Contributors**: 51
+- **Stars**: 5,413 · **Forks**: 400 · **Open issues**: 820 · **Contributors**: 51
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 18 | 2 | 2 | 2 | 25 |
-| last60d | 2026-07-15 | 2 | 21 | 2 | 3 | 2 | 42 |
-| 90d | 2026-06-15 | 2 | 23 | 4 | 5 | 6 | 43 |
-| last180d | 2026-03-17 | 3 | 56 | 11 | 11 | 10 | 87 |
-| 360d | 2025-09-18 | 6 | 147 | 15 | 28 | 14 | 338 |
-| last720d | 2024-09-23 | 11 | 312 | 24 | 62 | 41 | 1164 |
+| 30d | 2026-08-15 | 1 | 14 | 2 | 2 | 2 | 25 |
+| last60d | 2026-07-16 | 2 | 21 | 2 | 3 | 2 | 42 |
+| 90d | 2026-06-16 | 2 | 23 | 4 | 5 | 6 | 43 |
+| last180d | 2026-03-18 | 3 | 56 | 11 | 11 | 10 | 87 |
+| 360d | 2025-09-19 | 6 | 146 | 15 | 28 | 14 | 338 |
+| last720d | 2024-09-24 | 11 | 311 | 24 | 62 | 41 | 1164 |
 
 ## Release assets
 
@@ -87,25 +87,6 @@ Lowest-scoring checks:
 | [qpdf-12.4.1.tar.gz.asc](https://github.com/qpdf/qpdf/releases/download/v12.4.1/qpdf-12.4.1.tar.gz.asc) | 833 B | `other` |
 | [vcpkg.zip](https://github.com/qpdf/qpdf/releases/download/v12.4.1/vcpkg.zip) | 132.9 MiB | `other` |
 
-## Distribution status
-
-Reported by **264** distros on [repology.org](https://repology.org/project/qpdf). **46** are ✅ on the latest upstream release, **203** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `12.4.1` | ✅ latest |
-| Debian 14 | `12.4.1` | ✅ latest |
-| Debian 13 | `12.2.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `12.3.2` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `11.9.0` | ⚠️ outdated |
-| Arch | `12.4.1` | ✅ latest |
-| Homebrew | `12.4.1` | ✅ latest |
-| Fedora rawhide | `12.4.0` | ⚠️ outdated |
-| Nix unstable | `12.3.2` | ⚠️ outdated |
-| Void | `12.3.2` | ⚠️ outdated |
-| Alpine edge | `12.4.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `12.4.1` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for qpdf lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `qpdf` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -115,4 +96,4 @@ Install metadata for qpdf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T04:01:15Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T04:09:26Z._
