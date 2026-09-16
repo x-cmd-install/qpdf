@@ -30,8 +30,8 @@ Overall score: **5.1 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 0/6 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 0/6 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,415 · **Forks**: 400 · **Open issues**: 821 · **Contributors**: 51
+- **Stars**: 5,417 · **Forks**: 400 · **Open issues**: 821 · **Contributors**: 51
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 1 | 13 | 2 | 2 | 1 | 25 |
-| last60d | 2026-07-17 | 2 | 21 | 2 | 4 | 2 | 42 |
-| 90d | 2026-06-17 | 2 | 23 | 4 | 6 | 4 | 43 |
-| last180d | 2026-03-19 | 3 | 56 | 11 | 12 | 10 | 87 |
-| 360d | 2025-09-20 | 6 | 146 | 15 | 29 | 14 | 338 |
-| last720d | 2024-09-25 | 11 | 311 | 24 | 63 | 41 | 1162 |
+| 30d | 2026-08-17 | 1 | 13 | 2 | 2 | 1 | 25 |
+| last60d | 2026-07-18 | 2 | 21 | 2 | 4 | 2 | 42 |
+| 90d | 2026-06-18 | 2 | 23 | 4 | 6 | 4 | 43 |
+| last180d | 2026-03-20 | 3 | 56 | 11 | 12 | 10 | 87 |
+| 360d | 2025-09-21 | 6 | 146 | 15 | 29 | 14 | 338 |
+| last720d | 2024-09-26 | 11 | 311 | 24 | 62 | 41 | 1162 |
 
 ## Release assets
 
@@ -96,4 +96,4 @@ Install metadata for qpdf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T04:08:31Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T04:05:37Z._
