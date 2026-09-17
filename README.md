@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,417 · **Forks**: 400 · **Open issues**: 821 · **Contributors**: 51
+- **Stars**: 5,419 · **Forks**: 399 · **Open issues**: 821 · **Contributors**: 51
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 1 | 13 | 2 | 2 | 1 | 25 |
-| last60d | 2026-07-18 | 2 | 21 | 2 | 4 | 2 | 42 |
-| 90d | 2026-06-18 | 2 | 23 | 4 | 6 | 4 | 43 |
-| last180d | 2026-03-20 | 3 | 56 | 11 | 12 | 10 | 87 |
-| 360d | 2025-09-21 | 6 | 146 | 15 | 29 | 14 | 338 |
-| last720d | 2024-09-26 | 11 | 311 | 24 | 62 | 41 | 1162 |
+| 30d | 2026-08-18 | 1 | 12 | 2 | 2 | 1 | 25 |
+| last60d | 2026-07-19 | 2 | 21 | 2 | 4 | 2 | 42 |
+| 90d | 2026-06-19 | 2 | 22 | 4 | 6 | 4 | 43 |
+| last180d | 2026-03-21 | 3 | 56 | 10 | 11 | 10 | 87 |
+| 360d | 2025-09-22 | 6 | 145 | 15 | 29 | 14 | 338 |
+| last720d | 2024-09-27 | 11 | 309 | 24 | 62 | 41 | 1162 |
 
 ## Release assets
 
@@ -96,4 +96,4 @@ Install metadata for qpdf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T04:05:37Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T04:12:01Z._
