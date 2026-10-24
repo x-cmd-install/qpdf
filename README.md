@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,510 · **Forks**: 409 · **Open issues**: 827 · **Contributors**: 51
+- **Stars**: 5,513 · **Forks**: 409 · **Open issues**: 828 · **Contributors**: 51
 
 ## Totals (cumulative)
 
-- **Releases**: 64 · **Merged PRs**: 691 · **Open PRs**: 36 · **Closed issues**: 681 · **Open issues**: 146 · **Commits**: 4844
+- **Releases**: 64 · **Merged PRs**: 691 · **Open PRs**: 37 · **Closed issues**: 681 · **Open issues**: 147 · **Commits**: 4844
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 1 | 1 | 5 | 0 | 5 | 2 |
-| last60d | 2026-08-24 | 2 | 10 | 6 | 2 | 7 | 25 |
-| 90d | 2026-07-25 | 3 | 22 | 7 | 4 | 8 | 44 |
-| last180d | 2026-04-26 | 4 | 43 | 11 | 8 | 14 | 72 |
-| 360d | 2025-10-28 | 7 | 137 | 19 | 25 | 20 | 245 |
-| last720d | 2024-11-02 | 12 | 307 | 26 | 61 | 44 | 1139 |
+| 30d | 2026-09-24 | 1 | 1 | 6 | 0 | 6 | 2 |
+| last60d | 2026-08-25 | 2 | 10 | 7 | 2 | 8 | 25 |
+| 90d | 2026-07-26 | 3 | 22 | 8 | 4 | 9 | 44 |
+| last180d | 2026-04-27 | 4 | 43 | 12 | 8 | 15 | 72 |
+| 360d | 2025-10-29 | 7 | 136 | 20 | 25 | 21 | 245 |
+| last720d | 2024-11-03 | 12 | 307 | 27 | 61 | 45 | 1139 |
 
 ## Release assets
 
@@ -96,7 +96,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **254** distros on [repology.org](https://repology.org/project/qpdf). **56** are ✅ on the latest upstream release, **183** are ⚠️ on an older version.
+Reported by **255** distros on [repology.org](https://repology.org/project/qpdf). **57** are ✅ on the latest upstream release, **183** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -122,4 +122,4 @@ Install metadata for qpdf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T04:01:13Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T03:55:55Z._
