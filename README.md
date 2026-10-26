@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,515 · **Forks**: 409 · **Open issues**: 828 · **Contributors**: 51
+- **Stars**: 5,521 · **Forks**: 409 · **Open issues**: 828 · **Contributors**: 51
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 1 | 1 | 6 | 0 | 6 | 0 |
-| last60d | 2026-08-26 | 2 | 10 | 8 | 2 | 8 | 18 |
-| 90d | 2026-07-27 | 3 | 22 | 9 | 4 | 9 | 44 |
-| last180d | 2026-04-28 | 4 | 43 | 13 | 8 | 15 | 70 |
-| 360d | 2025-10-30 | 7 | 135 | 21 | 25 | 21 | 219 |
-| last720d | 2024-11-04 | 12 | 307 | 28 | 61 | 45 | 1139 |
+| 30d | 2026-09-26 | 1 | 0 | 6 | 0 | 6 | 0 |
+| last60d | 2026-08-27 | 2 | 8 | 8 | 2 | 8 | 18 |
+| 90d | 2026-07-28 | 3 | 22 | 9 | 4 | 9 | 44 |
+| last180d | 2026-04-29 | 4 | 43 | 13 | 8 | 15 | 70 |
+| 360d | 2025-10-31 | 7 | 134 | 21 | 25 | 21 | 219 |
+| last720d | 2024-11-05 | 12 | 307 | 28 | 61 | 45 | 1139 |
 
 ## Release assets
 
@@ -96,7 +96,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **255** distros on [repology.org](https://repology.org/project/qpdf). **57** are ✅ on the latest upstream release, **183** are ⚠️ on an older version.
+Reported by **255** distros on [repology.org](https://repology.org/project/qpdf). **61** are ✅ on the latest upstream release, **179** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -122,4 +122,4 @@ Install metadata for qpdf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T03:55:14Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T03:59:27Z._
