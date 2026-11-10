@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,564 · **Forks**: 417 · **Open issues**: 831 · **Contributors**: 51
+- **Stars**: 5,566 · **Forks**: 419 · **Open issues**: 833 · **Contributors**: 51
 
 ## Totals (cumulative)
 
-- **Releases**: 64 · **Merged PRs**: 691 · **Open PRs**: 41 · **Closed issues**: 682 · **Open issues**: 149 · **Commits**: 4844
+- **Releases**: 64 · **Merged PRs**: 691 · **Open PRs**: 42 · **Closed issues**: 682 · **Open issues**: 151 · **Commits**: 4844
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 9 | 1 | 6 | 0 |
-| last60d | 2026-09-09 | 1 | 1 | 10 | 1 | 10 | 2 |
-| 90d | 2026-08-10 | 2 | 21 | 12 | 4 | 11 | 29 |
-| last180d | 2026-05-12 | 3 | 31 | 16 | 9 | 17 | 56 |
-| 360d | 2025-11-13 | 7 | 121 | 24 | 25 | 23 | 184 |
-| last720d | 2024-11-18 | 12 | 304 | 31 | 62 | 47 | 1137 |
+| 30d | 2026-10-11 | 0 | 0 | 10 | 1 | 8 | 0 |
+| last60d | 2026-09-11 | 1 | 1 | 11 | 1 | 12 | 2 |
+| 90d | 2026-08-12 | 2 | 21 | 13 | 4 | 13 | 29 |
+| last180d | 2026-05-14 | 3 | 31 | 17 | 8 | 19 | 56 |
+| 360d | 2025-11-15 | 7 | 119 | 25 | 24 | 25 | 184 |
+| last720d | 2024-11-20 | 12 | 303 | 32 | 62 | 49 | 1136 |
 
 ## Release assets
 
@@ -96,7 +96,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **259** distros on [repology.org](https://repology.org/project/qpdf). **69** are ✅ on the latest upstream release, **175** are ⚠️ on an older version.
+Reported by **259** distros on [repology.org](https://repology.org/project/qpdf). **70** are ✅ on the latest upstream release, **174** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -111,7 +111,7 @@ Reported by **259** distros on [repology.org](https://repology.org/project/qpdf)
 | Nix unstable | `12.4.2` | ✅ latest |
 | Void | `12.4.2` | ✅ latest |
 | Alpine edge | `12.4.2` | ✅ latest |
-| openSUSE Tumbleweed | `12.4.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `12.4.2` | ✅ latest |
 
 ## Improve this data
 
@@ -122,4 +122,4 @@ Install metadata for qpdf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T05:17:14Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T06:39:45Z._
