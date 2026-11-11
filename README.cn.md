@@ -24,16 +24,6 @@ x install qpdf
 | ReStructuredText | 10,370 | 0 | 3,095 | 20 |
 | C | 2,735 | 325 | 272 | 11 |
 
-## OpenSSF Scorecard 评分
-
-总评分: **5.1 / 10**
-
-评分最低的几项:
-
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (0/10) — Found 0/6 approved changesets -- score normalized to 0
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-
 ## 源代码
 
 - **上游仓库**: <https://github.com/qpdf/qpdf>
@@ -48,7 +38,7 @@ x install qpdf
 
 ## 流行度
 
-- **Star**: 5,566 · **Fork**: 419 · **开放 issue**: 833 · **贡献者**: 51
+- **Star**: 5,573 · **Fork**: 418 · **开放 issue**: 833 · **贡献者**: 51
 
 ## 累计统计
 
@@ -58,12 +48,12 @@ x install qpdf
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 0 | 0 | 10 | 1 | 8 | 0 |
-| last60d | 2026-09-11 | 1 | 1 | 11 | 1 | 12 | 2 |
-| 90d | 2026-08-12 | 2 | 21 | 13 | 4 | 13 | 29 |
-| last180d | 2026-05-14 | 3 | 31 | 17 | 8 | 19 | 56 |
-| 360d | 2025-11-15 | 7 | 119 | 25 | 24 | 25 | 184 |
-| last720d | 2024-11-20 | 12 | 303 | 32 | 62 | 49 | 1136 |
+| 30d | 2026-10-12 | 0 | 0 | 10 | 1 | 8 | 0 |
+| last60d | 2026-09-12 | 1 | 1 | 11 | 1 | 12 | 2 |
+| 90d | 2026-08-13 | 2 | 19 | 13 | 4 | 13 | 29 |
+| last180d | 2026-05-15 | 3 | 31 | 17 | 8 | 19 | 56 |
+| 360d | 2025-11-16 | 7 | 118 | 25 | 24 | 25 | 184 |
+| last720d | 2024-11-21 | 12 | 303 | 31 | 62 | 49 | 1136 |
 
 ## Release 资产
 
@@ -96,7 +86,7 @@ x install qpdf
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/qpdf) 上共有 **259** 个发行版报告此项目。**70** 个 ✅ 已是最新上游版本，**174** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/qpdf) 上共有 **255** 个发行版报告此项目。**66** 个 ✅ 已是最新上游版本，**174** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -122,4 +112,4 @@ qpdf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261110.yml` · 2026-11-10T06:39:46Z._
+_数据快照: `data/card/261111.yml` · 2026-11-11T05:26:30Z._
