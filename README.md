@@ -38,7 +38,7 @@ Total: **101,136** lines of code across **501** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 5,573 · **Forks**: 418 · **Open issues**: 833 · **Contributors**: 51
+- **Stars**: 5,582 · **Forks**: 418 · **Open issues**: 833 · **Contributors**: 51
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **101,136** lines of code across **501** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 0 | 10 | 1 | 8 | 0 |
-| last60d | 2026-09-12 | 1 | 1 | 11 | 1 | 12 | 2 |
-| 90d | 2026-08-13 | 2 | 19 | 13 | 4 | 13 | 29 |
-| last180d | 2026-05-15 | 3 | 31 | 17 | 8 | 19 | 56 |
-| 360d | 2025-11-16 | 7 | 118 | 25 | 24 | 25 | 184 |
-| last720d | 2024-11-21 | 12 | 303 | 31 | 62 | 49 | 1136 |
+| 30d | 2026-10-13 | 0 | 0 | 10 | 1 | 8 | 0 |
+| last60d | 2026-09-13 | 1 | 1 | 11 | 1 | 12 | 2 |
+| 90d | 2026-08-14 | 2 | 19 | 13 | 4 | 13 | 29 |
+| last180d | 2026-05-16 | 3 | 31 | 17 | 8 | 19 | 56 |
+| 360d | 2025-11-17 | 7 | 118 | 25 | 24 | 25 | 184 |
+| last720d | 2024-11-22 | 12 | 303 | 31 | 61 | 49 | 1136 |
 
 ## Release assets
 
@@ -86,7 +86,7 @@ Total: **101,136** lines of code across **501** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **255** distros on [repology.org](https://repology.org/project/qpdf). **66** are ✅ on the latest upstream release, **174** are ⚠️ on an older version.
+Reported by **254** distros on [repology.org](https://repology.org/project/qpdf). **66** are ✅ on the latest upstream release, **173** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -112,4 +112,4 @@ Install metadata for qpdf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T05:26:29Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T06:30:47Z._
