@@ -24,6 +24,16 @@ x install qpdf
 | ReStructuredText | 10,370 | 0 | 3,095 | 20 |
 | C | 2,735 | 325 | 272 | 11 |
 
+## OpenSSF Scorecard 评分
+
+总评分: **5.1 / 10**
+
+评分最低的几项:
+
+- **Code-Review** (0/10) — Found 0/6 approved changesets -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/qpdf/qpdf>
@@ -38,7 +48,7 @@ x install qpdf
 
 ## 流行度
 
-- **Star**: 5,582 · **Fork**: 418 · **开放 issue**: 833 · **贡献者**: 51
+- **Star**: 5,583 · **Fork**: 418 · **开放 issue**: 833 · **贡献者**: 51
 
 ## 累计统计
 
@@ -48,12 +58,12 @@ x install qpdf
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 0 | 10 | 1 | 8 | 0 |
-| last60d | 2026-09-13 | 1 | 1 | 11 | 1 | 12 | 2 |
-| 90d | 2026-08-14 | 2 | 19 | 13 | 4 | 13 | 29 |
-| last180d | 2026-05-16 | 3 | 31 | 17 | 8 | 19 | 56 |
-| 360d | 2025-11-17 | 7 | 118 | 25 | 24 | 25 | 184 |
-| last720d | 2024-11-22 | 12 | 303 | 31 | 61 | 49 | 1136 |
+| 30d | 2026-10-14 | 0 | 0 | 9 | 1 | 8 | 0 |
+| last60d | 2026-09-14 | 1 | 1 | 11 | 1 | 11 | 2 |
+| 90d | 2026-08-15 | 2 | 15 | 13 | 4 | 13 | 29 |
+| last180d | 2026-05-17 | 3 | 31 | 17 | 8 | 19 | 56 |
+| 360d | 2025-11-18 | 7 | 115 | 25 | 24 | 25 | 184 |
+| last720d | 2024-11-23 | 12 | 303 | 31 | 61 | 49 | 1136 |
 
 ## Release 资产
 
@@ -112,4 +122,4 @@ qpdf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261112.yml` · 2026-11-12T06:30:48Z._
+_数据快照: `data/card/261113.yml` · 2026-11-13T05:50:48Z._
