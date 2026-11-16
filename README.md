@@ -24,6 +24,16 @@ Total: **101,136** lines of code across **501** files in the top 5 languages.
 | ReStructuredText | 10,370 | 0 | 3,095 | 20 |
 | C | 2,735 | 325 | 272 | 11 |
 
+## OpenSSF Scorecard
+
+Overall score: **5.1 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (0/10) — Found 0/6 approved changesets -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+
 ## Source
 
 - **Upstream**: <https://github.com/qpdf/qpdf>
@@ -38,7 +48,7 @@ Total: **101,136** lines of code across **501** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 5,588 · **Forks**: 419 · **Open issues**: 835 · **Contributors**: 51
+- **Stars**: 5,591 · **Forks**: 419 · **Open issues**: 835 · **Contributors**: 51
 
 ## Totals (cumulative)
 
@@ -48,12 +58,12 @@ Total: **101,136** lines of code across **501** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 0 | 8 | 1 | 10 | 0 |
-| last60d | 2026-09-16 | 1 | 1 | 11 | 1 | 13 | 2 |
-| 90d | 2026-08-17 | 2 | 14 | 13 | 3 | 14 | 29 |
-| last180d | 2026-05-19 | 3 | 31 | 17 | 8 | 21 | 56 |
-| 360d | 2025-11-20 | 7 | 110 | 25 | 23 | 27 | 184 |
-| last720d | 2024-11-25 | 12 | 303 | 31 | 60 | 51 | 1136 |
+| 30d | 2026-10-17 | 0 | 0 | 8 | 1 | 10 | 0 |
+| last60d | 2026-09-17 | 1 | 1 | 11 | 1 | 13 | 2 |
+| 90d | 2026-08-18 | 2 | 13 | 13 | 3 | 14 | 25 |
+| last180d | 2026-05-20 | 3 | 31 | 17 | 8 | 21 | 55 |
+| 360d | 2025-11-21 | 7 | 110 | 25 | 23 | 27 | 178 |
+| last720d | 2024-11-26 | 12 | 303 | 31 | 60 | 51 | 1136 |
 
 ## Release assets
 
@@ -112,4 +122,4 @@ Install metadata for qpdf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T05:38:41Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T05:37:49Z._
