@@ -30,9 +30,9 @@ x install qpdf
 
 评分最低的几项:
 
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Code-Review** (0/10) — Found 0/6 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install qpdf
 
 ## 流行度
 
-- **Star**: 5,605 · **Fork**: 421 · **开放 issue**: 837 · **贡献者**: 51
+- **Star**: 5,610 · **Fork**: 422 · **开放 issue**: 838 · **贡献者**: 51
 
 ## 累计统计
 
-- **发布数**: 64 · **已合并 PR**: 691 · **开放 PR**: 44 · **已关闭 issue**: 682 · **开放 issue**: 155 · **提交数**: 4844
+- **发布数**: 64 · **已合并 PR**: 691 · **开放 PR**: 45 · **已关闭 issue**: 682 · **开放 issue**: 156 · **提交数**: 4844
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 0 | 7 | 1 | 8 | 0 |
-| last60d | 2026-09-24 | 1 | 1 | 13 | 1 | 14 | 0 |
-| 90d | 2026-08-25 | 2 | 10 | 14 | 3 | 16 | 20 |
-| last180d | 2026-05-27 | 3 | 30 | 19 | 8 | 22 | 55 |
-| 360d | 2025-11-28 | 7 | 105 | 27 | 23 | 29 | 147 |
-| last720d | 2024-12-03 | 12 | 303 | 33 | 58 | 51 | 1136 |
+| 30d | 2026-10-25 | 0 | 0 | 7 | 1 | 9 | 0 |
+| last60d | 2026-09-25 | 1 | 1 | 13 | 1 | 15 | 0 |
+| 90d | 2026-08-26 | 2 | 10 | 15 | 3 | 17 | 20 |
+| last180d | 2026-05-28 | 3 | 30 | 20 | 8 | 23 | 55 |
+| 360d | 2025-11-29 | 7 | 103 | 28 | 23 | 30 | 147 |
+| last720d | 2024-12-04 | 12 | 303 | 34 | 57 | 52 | 1136 |
 
 ## Release 资产
 
@@ -122,4 +122,4 @@ qpdf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T06:40:13Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T09:07:51Z._

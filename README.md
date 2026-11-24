@@ -30,9 +30,9 @@ Overall score: **5.1 / 10**
 
 Lowest-scoring checks:
 
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Code-Review** (0/10) — Found 0/6 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,605 · **Forks**: 421 · **Open issues**: 837 · **Contributors**: 51
+- **Stars**: 5,610 · **Forks**: 422 · **Open issues**: 838 · **Contributors**: 51
 
 ## Totals (cumulative)
 
-- **Releases**: 64 · **Merged PRs**: 691 · **Open PRs**: 44 · **Closed issues**: 682 · **Open issues**: 155 · **Commits**: 4844
+- **Releases**: 64 · **Merged PRs**: 691 · **Open PRs**: 45 · **Closed issues**: 682 · **Open issues**: 156 · **Commits**: 4844
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 0 | 7 | 1 | 8 | 0 |
-| last60d | 2026-09-24 | 1 | 1 | 13 | 1 | 14 | 0 |
-| 90d | 2026-08-25 | 2 | 10 | 14 | 3 | 16 | 20 |
-| last180d | 2026-05-27 | 3 | 30 | 19 | 8 | 22 | 55 |
-| 360d | 2025-11-28 | 7 | 105 | 27 | 23 | 29 | 147 |
-| last720d | 2024-12-03 | 12 | 303 | 33 | 58 | 51 | 1136 |
+| 30d | 2026-10-25 | 0 | 0 | 7 | 1 | 9 | 0 |
+| last60d | 2026-09-25 | 1 | 1 | 13 | 1 | 15 | 0 |
+| 90d | 2026-08-26 | 2 | 10 | 15 | 3 | 17 | 20 |
+| last180d | 2026-05-28 | 3 | 30 | 20 | 8 | 23 | 55 |
+| 360d | 2025-11-29 | 7 | 103 | 28 | 23 | 30 | 147 |
+| last720d | 2024-12-04 | 12 | 303 | 34 | 57 | 52 | 1136 |
 
 ## Release assets
 
@@ -122,4 +122,4 @@ Install metadata for qpdf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T06:40:12Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T09:07:50Z._
