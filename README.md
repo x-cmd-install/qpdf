@@ -14,14 +14,14 @@ x install qpdf
 
 ## Code insight
 
-Total: **101,136** lines of code across **501** files in the top 5 languages.
+Total: **101,362** lines of code across **502** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 50,145 | 3,796 | 5,691 | 191 |
-| Json | 14,721 | 0 | 2 | 151 |
-| CppHeader | 13,429 | 5,242 | 2,441 | 128 |
-| ReStructuredText | 10,370 | 0 | 3,095 | 20 |
+| Cpp | 50,283 | 3,807 | 5,698 | 191 |
+| Json | 14,722 | 0 | 2 | 152 |
+| CppHeader | 13,433 | 5,254 | 2,443 | 128 |
+| ReStructuredText | 10,421 | 0 | 3,114 | 20 |
 | C | 2,735 | 325 | 272 | 11 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v12.4.2` (2026-09-27)
-- **Last commit**: 2026-09-26
+- **Last commit**: 2026-11-26
 - **Assets in release**: 24
 
 ## Popularity
 
-- **Stars**: 5,615 · **Forks**: 423 · **Open issues**: 838 · **Contributors**: 51
+- **Stars**: 5,621 · **Forks**: 424 · **Open issues**: 839 · **Contributors**: 60
 
 ## Totals (cumulative)
 
-- **Releases**: 64 · **Merged PRs**: 691 · **Open PRs**: 46 · **Closed issues**: 682 · **Open issues**: 156 · **Commits**: 4844
+- **Releases**: 64 · **Merged PRs**: 706 · **Open PRs**: 33 · **Closed issues**: 692 · **Open issues**: 147 · **Commits**: 4893
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 0 | 7 | 0 | 9 | 0 |
-| last60d | 2026-09-27 | 1 | 0 | 14 | 1 | 14 | 0 |
-| 90d | 2026-08-28 | 1 | 8 | 16 | 3 | 17 | 20 |
-| last180d | 2026-05-30 | 3 | 30 | 21 | 8 | 23 | 55 |
-| 360d | 2025-12-01 | 7 | 97 | 28 | 23 | 29 | 147 |
-| last720d | 2024-12-06 | 12 | 303 | 35 | 57 | 52 | 1136 |
+| 30d | 2026-10-28 | 0 | 7 | 1 | 2 | 8 | 24 |
+| last60d | 2026-09-28 | 0 | 13 | 4 | 5 | 11 | 33 |
+| 90d | 2026-08-29 | 1 | 23 | 4 | 8 | 13 | 55 |
+| last180d | 2026-05-31 | 3 | 45 | 9 | 13 | 18 | 90 |
+| 360d | 2025-12-02 | 7 | 110 | 15 | 30 | 23 | 182 |
+| last720d | 2024-12-07 | 12 | 318 | 22 | 66 | 44 | 1185 |
 
 ## Release assets
 
@@ -103,4 +103,4 @@ Install metadata for qpdf lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T07:35:26Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T07:32:48Z._
